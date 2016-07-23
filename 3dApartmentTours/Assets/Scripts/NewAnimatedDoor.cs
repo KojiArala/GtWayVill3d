@@ -21,7 +21,6 @@ public class NewAnimatedDoor : MonoBehaviour
 	{
 		if (Input.GetKeyDown (KeyCode.F) && (anim.GetCurrentAnimatorStateInfo(0).IsName("Door Idle"))) 
 		{
-			print ("input working");
 			anim.SetTrigger (openHash);
 		}
 		if (Input.GetKeyDown (KeyCode.F) && (anim.GetCurrentAnimatorStateInfo(0).IsName("DoorIdleOpen")))

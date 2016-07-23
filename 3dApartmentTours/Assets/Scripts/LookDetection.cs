@@ -14,17 +14,20 @@ public class LookDetection : MonoBehaviour {
 	void Update () {
 		Ray ray = new Ray(transform.position, transform.forward);
 		RaycastHit hit;
-		if (Physics.Raycast(ray, out hit)){
-			if(hit.collider.name == "Cube")
-				{
-				}
-			if(hit.collider.name == "Door")
+		if (Physics.Raycast(ray, out hit))
+		{
+
+			if (hit.collider.name == "Door")
 			{
 				hit.collider.SendMessageUpwards ("animateDoor");
 			}
 			if (hit.collider.name == "AnimationTestCube")
 			{
 				hit.collider.SendMessageUpwards ("animateCube");
+			}
+			if (hit.collider.name == "AccentWall")
+			{
+				hit.collider.SendMessageUpwards ("colorChange");
 			}
 
 		}
