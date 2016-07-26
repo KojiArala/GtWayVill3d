@@ -15,22 +15,16 @@ public class MaterialChange : MonoBehaviour {
 		rend.sharedMaterial = material [0];
 	}
 	
-	void colorChange()
+	void colorRed()
 	{
-		if (Input.GetKeyDown (KeyCode.Alpha1))
-		{
-			print ("Pressed 1");
-			rend.sharedMaterial = material [0];
-		}
-		if (Input.GetKeyDown (KeyCode.Alpha2))
-		    {
-			print ("Pressed 2");
-			rend.sharedMaterial = material [1];
-		}
-		if (Input.GetKeyDown (KeyCode.Alpha3))
-		    {
-			print ("Pressed 3");
-			rend.sharedMaterial = material [2];
-		}
+		rend.sharedMaterial = material [0];
+	}
+	void colorBlue()
+	{
+		rend.sharedMaterial = material [1];
+	}
+	void colorWhite()
+	{
+		rend.sharedMaterial = material [2];
 	}
 }

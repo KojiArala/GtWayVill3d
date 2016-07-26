@@ -19,11 +19,11 @@ public class NewAnimatedDoor : MonoBehaviour
 	
 	void animateDoor()
 	{
-		if (Input.GetKeyDown (KeyCode.F) && (anim.GetCurrentAnimatorStateInfo(0).IsName("Door Idle"))) 
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Door Idle")) 
 		{
 			anim.SetTrigger (openHash);
 		}
-		if (Input.GetKeyDown (KeyCode.F) && (anim.GetCurrentAnimatorStateInfo(0).IsName("DoorIdleOpen")))
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("DoorIdleOpen"))
 		{
 			anim.SetTrigger (closeHash);
 		}
