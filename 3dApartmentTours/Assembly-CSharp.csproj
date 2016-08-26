@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\MaterialChange.cs" />
      <Compile Include="Assets\Scripts\NewAnimatedDoor.cs" />
      <Compile Include="Assets\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Scripts\UICollider.cs" />
      <Compile Include="Assets\Scripts\UIscriptingTest.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
