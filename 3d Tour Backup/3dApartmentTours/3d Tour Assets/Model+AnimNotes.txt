@@ -1,0 +1,12 @@
+Door animation (for re-dos)
+
+IDLE: No animation (shouldn't need to be re-done for relative animations)
+
+Door OPEN: 
+==HANDLE Rotation: frame 0 (X 270, Y 270, Z 0)--> frame 26(270, 230, 0)--> frame 50 (repeat frame 0)
+==DOOR ROTATION: frame 0 (x 270, Y 0, X 0) --> frame 26-50 (x 270, y 2.5, z 0)--> frame 120 (x 270, y 97.1010, z 0)
+
+
+DOORIDLEOPEN: hold (x 270, y 97.1010, z 0)
+
+DOORCLOSE: frame 0 (x 270, y 97.1010, z 0)--> frame 70 (x 270, y 0, z 0)

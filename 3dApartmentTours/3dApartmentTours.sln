@@ -5,10 +5,6 @@ Project("{3D077DE8-808E-CE78-CF77-C4852BFF2892}") = "3dApartmentTours", "Assembl
 EndProject
 Project("{3D077DE8-808E-CE78-CF77-C4852BFF2892}") = "3dApartmentTours", "Assembly-CSharp.csproj", "{E698316C-D182-42EA-A7F5-9C245626D74B}"
 EndProject
-Project("{3D077DE8-808E-CE78-CF77-C4852BFF2892}") = "3dApartmentTours", "Assembly-UnityScript-firstpass.unityproj", "{AAAB735A-96A9-100F-6936-0614CE4BF490}"
-EndProject
-Project("{3D077DE8-808E-CE78-CF77-C4852BFF2892}") = "3dApartmentTours", "Assembly-UnityScript.unityproj", "{52634F65-E55D-ED6A-6A8E-142382CCE176}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,19 +19,11 @@ Global
 		{E698316C-D182-42EA-A7F5-9C245626D74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E698316C-D182-42EA-A7F5-9C245626D74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E698316C-D182-42EA-A7F5-9C245626D74B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAAB735A-96A9-100F-6936-0614CE4BF490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAAB735A-96A9-100F-6936-0614CE4BF490}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAAB735A-96A9-100F-6936-0614CE4BF490}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAAB735A-96A9-100F-6936-0614CE4BF490}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52634F65-E55D-ED6A-6A8E-142382CCE176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52634F65-E55D-ED6A-6A8E-142382CCE176}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52634F65-E55D-ED6A-6A8E-142382CCE176}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52634F65-E55D-ED6A-6A8E-142382CCE176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																	GlobalSection(MonoDevelopProperties) = preSolution
+																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -54,5 +42,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
